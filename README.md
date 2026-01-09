@@ -126,7 +126,7 @@ Kaydet seçeneğine basarsak dosyamızın .bak uzantılı yedeği aynı dizinde 
 
 
 
-![Grafik Arayüz](pictures/bak.png)
+![Grafik Arayüz](pictures/bakdosyası.png)
 
 
 
