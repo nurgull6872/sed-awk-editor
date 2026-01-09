@@ -192,7 +192,11 @@ Aynı şekilde tüm işlemleri grafiksel bir arayüze ihtiyaç duymadan da tui �
 
 
 
+![Terminal Arayüz](pictures/tui_onay.png)
 
+
+
+![Terminal Arayüz](pictures/tuionay.png)
 
 
 
