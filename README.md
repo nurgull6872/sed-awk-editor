@@ -55,3 +55,69 @@ Linux Text Alchemy’nin ayırt edici özelliği, yapılan her işlemin arka pla
 ```bash
 sudo apt update
 sudo apt install yad whiptail -y
+
+## ▶️ Uygulamanın Çalıştırılması
+
+1. Depoyu klonlayın:
+```bash
+git clone https://github.com/kullanici-adi/sedawk-araci.git
+Proje dizinine girin:
+
+bash
+Kodu kopyala
+cd sedawk-araci
+Çalıştırma izinlerini verin:
+
+bash
+Kodu kopyala
+chmod +x *.sh
+Ana programı başlatın:
+
+bash
+Kodu kopyala
+./ana_program.sh
+📖 Kullanım Kılavuzu
+1️⃣ Arayüz Seçimi
+Program başladığında kullanıcıdan aşağıdaki arayüzlerden birini seçmesi istenir:
+
+Grafik Arayüz (YAD)
+
+Terminal Arayüzü (Whiptail)
+
+📸 Ekran Görüntüsü:
+
+
+2️⃣ Dosya Seçimi ve İşlemler
+İşlem yapılacak metin dosyası seçilir
+
+Aşağıdaki işlemlerden biri uygulanabilir:
+
+Kelime değiştirme
+
+Boş satırları temizleme
+
+Belirli sütunları ayıklama
+
+Sayısal sütun toplamı alma
+
+📸 Ekran Görüntüsü:
+
+
+3️⃣ Kaydetme ve Yedekleme
+Dosya kaydedilirken:
+
+Aynı isimde bir dosya varsa otomatik olarak .bak uzantılı yedeği oluşturulur
+
+📸 Ekran Görüntüsü:
+
+
+🏗 Proje Yapısı
+text
+Kodu kopyala
+sedawk-araci/
+│
+├── ana_program.sh
+├── arayuzler.sh
+├── fonksiyonlar.sh
+├── README.md
+└── screenshots/
