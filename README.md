@@ -104,20 +104,20 @@ Program başladığında kullanıcıdan aşağıdaki arayüzlerden biri seçmesi
 -Terminal Arayüzü (Whiptail)
 
 
-![Arayüz Seçimi](screenshots/gui.png)
+![Arayüz Seçimi](pictures/arayuz_secimi)
 
 
 ***Eğer arayüz olarak gui seçilirse***
 
 İşlem yapılacak dosya seçildikten sonra aşağıdaki menü ekranı ile karşılaşacaksınız
-![Grafik Arayüz](screenshots/gui.png)
+![Grafik Arayüz](pictures/gui_menu.png)
 
 
 
 
 Devamında yapılacak işlemi seçtikten sonra ise size aynı zamanda bilgi vermek adına komutun çıktısını ve bilgisini göreceksiniz
 
-![Grafik Arayüz](screenshots/gui.png)
+![Grafik Arayüz](pictures/komut_verisi.png)
 
 
 
@@ -125,6 +125,9 @@ Aynı dosya üzerinden işlem yapmak isterseniz eğer dosya kaydedilmeyecektir a
 bir ekran çıkmaktadır. Herhangi bir isim verilmez ise default olarak yapılan işlemleri barındıran bir isim çıktısı yeni dosyamızın ismi olacaktır.
 
 
+![Grafik Arayüz](pictures/onay.png)
+
+![Grafik Arayüz](pictures/dosyaisim.png)
 
 
 
