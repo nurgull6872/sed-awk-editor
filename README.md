@@ -174,6 +174,27 @@ bir ekran çıkmaktadır. Herhangi bir isim verilmez ise default olarak yapılan
 
 
 
+Aynı şekilde tüm işlemleri grafiksel bir arayüze ihtiyaç duymadan da tui üzerinden de gerçekleştirilebilir. Aşağıda aynı işlemlerin tuiye ait görselleri bulunmaktadır.
+
+
+
+![Terminal Arayüz](pictures/tui_dosya_yolu.png)
+
+
+
+
+![Terminal Arayüz](pictures/tui_menu.png)
+
+
+
+
+![Terminal Arayüz](pictures/tui_islem.png)
+
+
+
+
+
+
 
 
 
