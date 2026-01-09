@@ -120,6 +120,19 @@ Program başladığında kullanıcıdan aşağıdaki arayüzlerden biri seçmesi
 
 
 
+Kaydet seçeneğine basarsak dosyamızın .bak uzantılı yedeği aynı dizinde oluşturulmuş olacaktır.
+
+
+
+
+
+![Grafik Arayüz](pictures/bak.png)
+
+
+
+
+
+
 
 
 
