@@ -1,35 +1,46 @@
 # 🪄 Sed Awk Editor
-### Sed & Awk Tabanlı Metin Düzenleyici
+### Sed & Awk Tabanlı Metin Düzenleyici (Shell Programming Projesi)
 
-Sed awk editor Linux sistemlerde (Pardus, Ubuntu, Debian vb.) metin dosyaları üzerinde **sed** ve **awk** komutlarını kullanıcı dostu bir arayüzle kullanmayı sağlayan bir **Shell Programming projesidir**.  
-Uygulama hem **Grafik Arayüz (GUI)** hem de **Terminal Arayüzü (TUI)** sunarak farklı kullanım senaryolarına uyum sağlar.
+Sed Awk Editor, Linux sistemlerde (özellikle **Pardus**, Ubuntu ve Debian) metin dosyaları üzerinde **sed** ve **awk** komutlarını kullanıcı dostu bir arayüzle kullanmayı sağlayan bir **Shell Programming uygulamasıdır**.
+
+Uygulama hem **Grafik Arayüz (GUI – YAD)** hem de **Terminal Arayüzü (TUI – Whiptail)** sunarak farklı kullanım senaryolarına uyum sağlar.
 
 ---
 
-## 📝 Proje Tanıtımı
+## 📝 Proje Tanıtımı ve Amacı
 
-Bu proje, metin dosyaları üzerinde sık kullanılan işlemleri (kelime değiştirme, boş satır temizleme, sütun bazlı işlemler, sayısal hesaplamalar vb.) **menü tabanlı** bir yapı ile gerçekleştirmeyi amaçlar.
+Bu proje, komut satırında karmaşık görülebilen `sed` ve `awk` işlemlerini **menü tabanlı ve etkileşimli** bir yapıya dönüştürmeyi amaçlar.
 
-Linux Text Alchemy’nin ayırt edici özelliği, yapılan her işlemin arka planda çalışan **sed** ve **awk** komutlarını kullanıcıya göstermesidir. Bu sayede uygulama yalnızca bir araç değil, aynı zamanda **öğretici bir eğitim uygulaması** olarak da kullanılabilir.
+Sed Awk Editor sayesinde kullanıcılar:
+
+- Metin içinde kelime değiştirme
+- Boş satırları temizleme
+- Satır numarası ekleme
+- Belirli sütunları ayıklama
+- Sayısal sütunlar üzerinde filtreleme ve toplama
+
+gibi işlemleri **kod yazmadan**, güvenli ve kontrollü bir şekilde gerçekleştirebilir.
+
+Uygulamanın ayırt edici özelliği, yapılan her işlemin arka planda çalışan **sed** ve **awk** komutlarını kullanıcıya göstermesidir. Bu sayede proje yalnızca bir araç değil, aynı zamanda **öğretici bir eğitim uygulaması**dır.
 
 ---
 
 ## 🚀 Özellikler
 
 - **Çift Arayüz Desteği**
-  - Grafik Arayüz: `yad`
-  - Terminal Arayüzü: `whiptail`
+  - Grafik Arayüz (GUI): `yad`
+  - Terminal Arayüzü (TUI): `whiptail`
 
 - **Güvenli Dosya İşleme**
   - Orijinal dosya korunur
-  - İşlemler geçici dosyalar üzerinde yapılır
+  - Tüm işlemler geçici dosyalar üzerinde yapılır
 
 - **Otomatik Yedekleme**
-  - Kaydetme sırasında mevcut dosyanın `.bak` uzantılı yedeği alınır
+  - Dosya kaydedilirken mevcut dosyanın `.bak` uzantılı yedeği alınır
 
 - **Özel Karakter Koruması**
-  - `/`, `&`, `.` gibi özel karakterler otomatik olarak escape edilir
-  - Hatalı sed işlemleri engellenir
+  - `/`, `&`, `.`, `*` gibi özel karakterler otomatik olarak escape edilir
+  - `sed` kaynaklı hataların önüne geçilir
 
 - **Eğitici Mod**
   - Çalıştırılan `sed` ve `awk` komutları açıklamalarıyla birlikte gösterilir
@@ -55,69 +66,83 @@ Linux Text Alchemy’nin ayırt edici özelliği, yapılan her işlemin arka pla
 ```bash
 sudo apt update
 sudo apt install yad whiptail -y
+```
 
-## ▶️ Uygulamanın Çalıştırılması
 
-1. Depoyu klonlayın:
+
+## Uygulamanın Çalıştırılması
+
+1) Depoyu klonlayın:
 ```bash
-git clone https://github.com/kullanici-adi/sedawk-araci.git
-Proje dizinine girin:
+git clone https://github.com/nurgull6872/sedawk-araci.git
+```
 
-bash
-Kodu kopyala
+2) Proje dizinine girin:
+```bash
 cd sedawk-araci
-Çalıştırma izinlerini verin:
+```
 
-bash
-Kodu kopyala
+3) Çalıştırma izinlerini verin:
+
+```bash
 chmod +x *.sh
-Ana programı başlatın:
+```
 
-bash
-Kodu kopyala
+4) Ana programı başlatın:
+
+```bash
 ./ana_program.sh
-📖 Kullanım Kılavuzu
-1️⃣ Arayüz Seçimi
-Program başladığında kullanıcıdan aşağıdaki arayüzlerden birini seçmesi istenir:
+```
 
-Grafik Arayüz (YAD)
+##  Kullanım Kılavuzu 
+### Arayüz Seçimi
 
-Terminal Arayüzü (Whiptail)
+Program başladığında kullanıcıdan aşağıdaki arayüzlerden biri seçmesi istenir:
 
-📸 Ekran Görüntüsü:
+-Grafik Arayüz (YAD)
 
-
-2️⃣ Dosya Seçimi ve İşlemler
-İşlem yapılacak metin dosyası seçilir
-
-Aşağıdaki işlemlerden biri uygulanabilir:
-
-Kelime değiştirme
-
-Boş satırları temizleme
-
-Belirli sütunları ayıklama
-
-Sayısal sütun toplamı alma
-
-📸 Ekran Görüntüsü:
+-Terminal Arayüzü (Whiptail)
 
 
-3️⃣ Kaydetme ve Yedekleme
-Dosya kaydedilirken:
-
-Aynı isimde bir dosya varsa otomatik olarak .bak uzantılı yedeği oluşturulur
-
-📸 Ekran Görüntüsü:
+![Arayüz Seçimi](screenshots/gui.png)
 
 
-🏗 Proje Yapısı
-text
-Kodu kopyala
-sedawk-araci/
-│
-├── ana_program.sh
-├── arayuzler.sh
-├── fonksiyonlar.sh
-├── README.md
-└── screenshots/
+***Eğer arayüz olarak gui seçilirse***
+
+İşlem yapılacak dosya seçildikten sonra aşağıdaki menü ekranı ile karşılaşacaksınız
+![Grafik Arayüz](screenshots/gui.png)
+
+
+
+
+Devamında yapılacak işlemi seçtikten sonra ise size aynı zamanda bilgi vermek adına komutun çıktısını ve bilgisini göreceksiniz
+
+![Grafik Arayüz](screenshots/gui.png)
+
+
+
+Aynı dosya üzerinden işlem yapmak isterseniz eğer dosya kaydedilmeyecektir ama farklı bir dosya işlemine geçerseniz dosya kaydedilecek olup karşınıza dosya ismini kullanıcının belrileyebileceği
+bir ekran çıkmaktadır. Herhangi bir isim verilmez ise default olarak yapılan işlemleri barındıran bir isim çıktısı yeni dosyamızın ismi olacaktır.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
