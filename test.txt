@@ -1,0 +1,12 @@
+ID  AD_SOYAD        SEHIR       MESLEK      MAAS    TECRUBE
+001   Ahmet_Yilmaz    Ankara      Muhendis    45000   5
+002   Ayse_Demir      Istanbul    Doktor      55000   8
+
+003   Mehmet_Can      Izmir       Ogretmen    35000   12
+004   Fatma_Sahin     Bursa       Avukat      48000   4
+
+005   Can_Ozkan       Antalya     Teknisyen   28000   2
+006   Ece_Sert        Eskisehir   Mimar       42000   7
+
+007   Huseyin_Ak      Adana       Isci        22000   15
+008   Zeynep_Kaya     Samsun      Hemsire     31000   3
