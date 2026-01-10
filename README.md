@@ -1,4 +1,4 @@
-# 🪄 Sed Awk Editor
+# Sed Awk Editor
 ### Sed & Awk Tabanlı Metin Düzenleyici (Shell Programming Projesi)
 
 Sed Awk Editor, Linux sistemlerde (özellikle **Pardus**, Ubuntu ve Debian) metin dosyaları üzerinde **sed** ve **awk** komutlarını kullanıcı dostu bir arayüzle kullanmayı sağlayan bir **Shell Programming uygulamasıdır**.
@@ -7,7 +7,7 @@ Uygulama hem **Grafik Arayüz (GUI – YAD)** hem de **Terminal Arayüzü (TUI �
 
 ---
 
-## 📝 Proje Tanıtımı ve Amacı
+## Proje Tanıtımı ve Amacı
 
 Bu proje, komut satırında karmaşık görülebilen `sed` ve `awk` işlemlerini **menü tabanlı ve etkileşimli** bir yapıya dönüştürmeyi amaçlar.
 
@@ -25,7 +25,7 @@ Uygulamanın ayırt edici özelliği, yapılan her işlemin arka planda çalış
 
 ---
 
-## 🚀 Özellikler
+##  Özellikler
 
 - **Çift Arayüz Desteği**
   - Grafik Arayüz (GUI): `yad`
@@ -47,7 +47,7 @@ Uygulamanın ayırt edici özelliği, yapılan her işlemin arka planda çalış
 
 ---
 
-## 🛠 Kurulum ve Sistem Gereksinimleri
+## Kurulum ve Sistem Gereksinimleri
 
 ### Desteklenen Sistemler
 - Pardus
