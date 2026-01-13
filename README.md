@@ -1,5 +1,5 @@
 # Sed Awk Editor
-### Sed & Awk Tabanlı Metin Düzenleyici (Shell Programming Projesi)
+### Sed & Awk Tabanlı Metin Düzenleyici 
 
 Sed Awk Editor, Linux sistemlerde (özellikle **Pardus**, Ubuntu ve Debian) metin dosyaları üzerinde **sed** ve **awk** komutlarını kullanıcı dostu bir arayüzle kullanmayı sağlayan bir **Shell Programming uygulamasıdır**.
 
@@ -107,6 +107,8 @@ Program başladığında kullanıcıdan aşağıdaki arayüzlerden biri seçmesi
 ![Arayüz Seçimi](pictures/arayuz_secimi.png)
 
 
+
+
 ***Eğer arayüz olarak gui seçilirse***
 
 İşlem yapılacak dosya seçildikten sonra aşağıdaki menü ekranı ile karşılaşacaksınız
@@ -200,6 +202,10 @@ Aynı şekilde tüm işlemleri grafiksel bir arayüze ihtiyaç duymadan da tui �
 
 
 
+
+Daha detaylı uygulama videosu için aşağıdaki linki kullanabilirsiniz:
+
+[Link youtube](https://www.youtube.com/watch?v=qmT9KEIz0GE)
 
 
 
