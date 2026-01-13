@@ -97,6 +97,15 @@ chmod +x *.sh
 ##  Kullanım Kılavuzu 
 ### Arayüz Seçimi
 
+
+Daha detaylı uygulama videosu için aşağıdaki linki kullanabilirsiniz:
+
+[PROJE ANLATIM VE KULLANIM VİDEOSU](https://www.youtube.com/watch?v=qmT9KEIz0GE)
+
+
+Ayrıca aşağıda detaylı olarak arayüz fotoğrafları ile birlikte anlatılmaktadır.
+
+
 Program başladığında kullanıcıdan aşağıdaki arayüzlerden biri seçmesi istenir:
 
 -Grafik Arayüz (YAD)
@@ -203,9 +212,6 @@ Aynı şekilde tüm işlemleri grafiksel bir arayüze ihtiyaç duymadan da tui �
 
 
 
-Daha detaylı uygulama videosu için aşağıdaki linki kullanabilirsiniz:
-
-[Link youtube](https://www.youtube.com/watch?v=qmT9KEIz0GE)
 
 
 
